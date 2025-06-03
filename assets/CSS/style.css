@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+    top: -537px;
+    left: -720px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    background-image: url(../img/img.svg);
+    width: 687vh;
+    height: 1031PX;
+    background-repeat: no-repeat;
+    top: -7px;
+}
+
+body .container {
+    width: 753px;
+    height: 1,024px;
+    left: 687px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+body .container .login {
+    width: 504px;
+    height: 617px;
+    padding: 35px;
+    gap: 26px;
+    border-radius: 10px;
+    border: 0.5px solid #878787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .container .login .header {
+    width: 434px;
+    height: 145px;
+    gap: 10px;
+}
+
+body .container .login .header h2 {
+    width: 434px;
+    height: 38px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 37.5px;
+    text-align: left;
+    color: #111111;
+}
+
+body .container .login .header .subtitle {
+    width: 434px;
+    height: 97px;
+    gap: 2px;
+}
+
+body .container .login .header .subtitle h2 {
+    width: 434px;
+    height: 47px;
+    font-weight: 500px;
+    font-size: 31px;
+    color: #000;
+}
+
+body .container .login .header .subtitle p {
+    width: 260px;
+    height: 48px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #111111;
+}
+
+body .container .login .form {
+    width: 423px;
+    height: 376px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+body .container .login .form .email-senha input{
+    width: 423px;
+    height: 59px;
+    top: 33px;
+    padding: 19px 248px 19px 27px;
+    gap: 0px;
+    border-radius: 6px;
+    border: 0.6px solid #282828CC;
+}
+
+body .container .login .form .check-esqueceu {
+    display: flex;
+    width: 423px;
+    height: 18px;
+    justify-content: space-between;
+}
+
+body .container .login .form .check-esqueceu .checkbox {
+    display: flex;
+    width: 97px;
+    height: 18px;
+    gap: 6px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #111111;
+    text-align: center;
+    align-items: center;
+}
+
+body .container .login .form .check-esqueceu p {
+    width: 119px;
+    height: 18px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #4D4D4D;
+}
+
+body .container .login .form button {
+    width: 423px;
+    height: 60px;
+    padding: 18px;
+    gap: 10px;
+    border-radius: 6px;
+    background-color: #111111;
+}
+
+body .container .login .form button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
